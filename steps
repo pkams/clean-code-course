@@ -5,3 +5,5 @@ setar ".vscode/settings.json" para adicionar linting
 >> pylint --generate-rcfile > .pylintrc
 add disable options in .pylintrc
 >> pip install pre-commit
+configure .pre-commit-config.yaml
+>> pre-commit install
