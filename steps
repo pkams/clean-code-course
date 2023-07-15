@@ -1,0 +1,7 @@
+.gitignore
+criar venv
+>> pip install pylint
+setar ".vscode/settings.json" para adicionar linting
+>> pylint --generate-rcfile > .pylintrc
+add disable options in .pylintrc
+>> pip install pre-commit
